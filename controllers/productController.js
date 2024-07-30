@@ -1,7 +1,6 @@
 const Product = require("../models/Product");
-const multer = require("multer");
 const Firm = require('../models/Firm')
-const path = require('path');
+
 
 
 
@@ -74,4 +73,4 @@ const deleteProductById = async(req, res) => {
     }
 }
 
-module.exports = { addProduct:  addProduct, getProductByFirm, deleteProductById };
+module.exports = { addProduct,getProductByFirm, deleteProductById };
