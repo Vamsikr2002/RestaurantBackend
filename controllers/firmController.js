@@ -62,4 +62,4 @@ const deleteFirmById = async(req, res) => {
     }
 }
 
-module.exports = { addFirm: [upload.single('image'), addFirm], deleteFirmById }
+module.exports = { addFirm:addFirm, deleteFirmById }
