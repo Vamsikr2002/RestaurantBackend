@@ -62,4 +62,4 @@ const deleteFirmById = async(req, res) => {
     }
 }
 
-module.exports = { addFirm:addFirm, deleteFirmById }
+module.exports = { addFirm ,deleteFirmById }
